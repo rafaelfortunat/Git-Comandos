@@ -2,6 +2,26 @@ Adicionando um ReadMe.md
 
 Segue aqui os principais comandos Git a serem usados:
 
+Para criação/primeiras modificações:
+
+    echo "# My-Project" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/rafaelfortunat/My-Project.git
+    git push -u origin main
+
+Push em repositório, e outras modificações:
+
+    git remote add origin https://github.com/rafaelfortunat/My-Project.git
+    git branch -M main
+    git push -u origin main
+
+    
+
+Segue aqui outros comandos, possivelmente úteis no futuro:
+
     git init → inicializa um repositório Git vazio na pasta atual.
 
     git status → exibe o estado atual do repositório (arquivos modificados, em staging ou não rastreados).

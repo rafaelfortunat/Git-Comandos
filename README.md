@@ -18,6 +18,27 @@ Push em repositório, branch, e outras modificações:
     git branch -M main
     git push -u origin main
 
+🔁 Fluxo mental do cenário 1
+
+    *Criar/alterar arquivos
+    *git init
+    *git status (opcional)
+    *git add .
+    *git commit -m "first commit"
+    *git branch -M main
+    
+    Arquivo → git init → git add → git commit → git remote → git push
+
+🔁 Fluxo mental do cenário 2
+    
+    *# edita README.md ou qualquer outro arquivo
+    *git status
+    *git add .
+    *git commit -m "Atualiza README"
+    *git push (não precisa do "-u origin main")
+
+    Editar → git add → git commit → git push
+
 
 
 Segue aqui outros comandos, possivelmente úteis no futuro:
